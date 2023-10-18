@@ -4,7 +4,8 @@ public final class Task2 {
     private Task2() {
     }
 
-    @SuppressWarnings("checkstyle:MagicNumber")
+    static final int DEVISION = 10;
+
     public static int countDigits(int number) {
         if (number == 0) {
             return 1;
@@ -12,7 +13,7 @@ public final class Task2 {
         int temp = number;
         int count = 0;
         while (Math.abs(temp) > 0) {
-            temp /= 10;
+            temp /= DEVISION;
             count++;
         }
         return count;

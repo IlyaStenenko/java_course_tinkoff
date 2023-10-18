@@ -1,19 +1,20 @@
 package edu.hw1;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Task4Test {
-    @Test
-    void withEvenLengthTest() {
-        String input = "123456";
-        String input2 = "hTsii  s aimex dpus rtni.g";
-
+    static String[] answer = {"214365","This is a mixed up string."};
+    static int i = 0;
+    @ParameterizedTest
+    @ValueSource(strings = {"123456","hTsii  s aimex dpus rtni.g"})
+    void withEvenLengthTest(String input) {
         StringBuilder result = Task4.fixString(input);
-        StringBuilder result2 = Task4.fixString(input2);
-
-        assertEquals("214365", result.toString());
-        assertEquals("This is a mixed up string.", result2.toString());
+        assertEquals(answer[i], result.toString());
+        i++;
     }
 
     @Test

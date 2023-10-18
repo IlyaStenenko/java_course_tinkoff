@@ -5,19 +5,20 @@ import java.util.Arrays;
 public final class Task6 {
     private Task6() {}
 
-    @SuppressWarnings("checkstyle:MagicNumber")
+    static final int MAXINT = 9999;
+    static final int MININT = 1000;
+    static final int KAPREKAL_NUMBER = 6174;
+
     public static int countK(int number) {
-        if (number < 1000 || number > 9999) {
+        if (number < MININT || number > MAXINT) {
             return 0;
         }
-        int kaprekarNumber = 6174;
-        if (number == kaprekarNumber) {
+        if (number == KAPREKAL_NUMBER) {
             return 0;
         }
         return 1 + countK(descendingMinusAscendingNumbers(number));
     }
 
-    @SuppressWarnings("checkstyle:MagicNumber")
     private static int descendingMinusAscendingNumbers(int number) {
         StringBuilder result = new StringBuilder();
         String numberStr = Integer.toString(number);

@@ -3,19 +3,24 @@ package edu.hw1;
 public final class Task5 {
     private Task5() {}
 
-    @SuppressWarnings("checkstyle:MagicNumber")
+    static final int DEVISION = 10;
+
     public static boolean isPalindromeDescendant(int number) {
         int temp = number;
-        while (temp >= 10) {
+        while (temp >= DEVISION) {
             if (isPalindrome(temp)) {
                 return true;
             }
             int sum = 0;
             temp = reverseNumber(temp);
             while (temp > 0) {
-                int num = temp % 10 + temp / 10 % 10;
-                sum = sum * 10 + num;
-                temp /= 100;
+                int num = temp % DEVISION + (temp / DEVISION) % DEVISION;
+                if (num >= DEVISION) {
+                    sum = (sum * DEVISION) * DEVISION + num;
+                } else {
+                    sum = sum * DEVISION + num;
+                }
+                temp /= (DEVISION * DEVISION);
             }
             temp = sum;
         }
@@ -26,13 +31,13 @@ public final class Task5 {
         return number == reverseNumber(number);
     }
 
-    @SuppressWarnings("checkstyle:MagicNumber")
-    public static int reverseNumber(int number) {
+
+    private static int reverseNumber(int number) {
         int temp = number;
         int reversedNumber = 0;
         while (temp > 0) {
-            reversedNumber = reversedNumber * 10 + temp % 10;
-            temp = temp / 10;
+            reversedNumber = reversedNumber * DEVISION + temp % DEVISION;
+            temp = temp / DEVISION;
         }
         return reversedNumber;
     }

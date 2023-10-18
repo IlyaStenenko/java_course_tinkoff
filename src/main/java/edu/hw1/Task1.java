@@ -6,6 +6,8 @@ import org.apache.logging.log4j.Logger;
 public final class Task1 {
     private Task1() {}
 
+    static final int MAXSECONDS = 60;
+
     private static final Logger LOGGER = LogManager.getLogger();
 
     public static int minutesToSeconds(String time) {
@@ -17,12 +19,11 @@ public final class Task1 {
             LOGGER.info("Time not empty!");
             return -1;
         }
-        final int maxSeconds = 60;
         int firstValue = Integer.parseInt(time.substring(time.indexOf(":") + 1));
         int lastValue = Integer.parseInt(time.substring(0, time.indexOf(":")));
-        if (firstValue >= maxSeconds || firstValue < 0 || lastValue < 0) {
+        if (firstValue >= MAXSECONDS || firstValue < 0 || lastValue < 0) {
             return -1;
         }
-        return lastValue * maxSeconds + firstValue;
+        return lastValue * MAXSECONDS + firstValue;
     }
 }

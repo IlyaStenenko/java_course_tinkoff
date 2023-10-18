@@ -1,34 +1,24 @@
 package edu.hw1;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class Task6Test {
-    @SuppressWarnings("checkstyle:MagicNumber")
-    @Test
-    void countKTest() {
-        final int number1 = 6621;
-        final int number2 = 6554;
-        final int number3 = 1234;
-
-        final int result1 = Task6.countK(number1);
-        final int result2 = Task6.countK(number2);
-        final int result3 = Task6.countK(number3);
-
-        assertThat(result1).isEqualTo(5);
-        assertThat(result2).isEqualTo(4);
-        assertThat(result3).isEqualTo(3);
+    static int[] answer = {5,4,3};
+    static int i = 0;
+    @ParameterizedTest
+    @ValueSource(ints = {6621,6554,1234})
+    void countKTest(int number) {
+        assertThat(Task6.countK(number)).isEqualTo(answer[i]);
+        i++;
     }
 
-    @Test
-    void badNumberCountKTest() {
-        final int number1 = 100;
-        final int number2 = 10000;
-
-        final int result1 = Task6.countK(number1);
-        final int result2 = Task6.countK(number2);
-
-        assertThat(result1).isEqualTo(0);
-        assertThat(result2).isEqualTo(0);
+    @ParameterizedTest
+    @ValueSource(ints = {100,10000})
+    void badNumberCountKTest(int number) {
+        assertThat(Task6.countK(number)).isEqualTo(0);
     }
 }

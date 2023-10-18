@@ -1,45 +1,35 @@
 package edu.hw1;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class Task1Test {
 
-    @SuppressWarnings("checkstyle:MagicNumber")
-    @Test
-    void correctTimeOfFilmTest() {
+    static int[] answer = {120,66 * 60 + 19,999 * 60 + 59};
+    static int i = 0;
+    @ParameterizedTest
+    @ValueSource(strings = {"02:00","66:19","999:59"})
+    void correctTimeOfFilmTest(String time) {
         // given
-        String time1 = "02:00";
-        String time2 = "66:19";
-        String time3 = "999:59";
 
         // when
-        int resultTime1 = Task1.minutesToSeconds(time1);
-        int resultTime2 = Task1.minutesToSeconds(time2);
-        int resultTime3 = Task1.minutesToSeconds(time3);
+        int resultTime1 = Task1.minutesToSeconds(time);
 
         // then
-        assertThat(resultTime1).isEqualTo(120);
-        assertThat(resultTime2).isEqualTo(66 * 60 + 19);
-        assertThat(resultTime3).isEqualTo(999 * 60 + 59);
+        assertThat(resultTime1).isEqualTo(answer[i]);
+        i++;
     }
 
-    @Test
-    void notCorrectTimeOfFilmTest() {
-        // given
-        String time1 = "-01:00";
-        String time2 = "01:60";
-        String time3 = "11:999";
+    @ParameterizedTest
+    @ValueSource(strings = {"-01:00","01:60","11:999"})
+    void notCorrectTimeOfFilmTest(String time) {
 
-        // when
-        int resultTime1 = Task1.minutesToSeconds(time1);
-        int resultTime2 = Task1.minutesToSeconds(time2);
-        int resultTime3 = Task1.minutesToSeconds(time3);
+        int resultTime = Task1.minutesToSeconds(time);
 
-        // then
-        assertThat(resultTime1).isEqualTo(-1);
-        assertThat(resultTime2).isEqualTo(-1);
-        assertThat(resultTime3).isEqualTo(-1);
+        assertThat(resultTime).isEqualTo(-1);
     }
 
     @Test

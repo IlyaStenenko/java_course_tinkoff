@@ -26,7 +26,6 @@ public class Task3Test {
         assertTrue(result);
     }
 
-    @SuppressWarnings("checkstyle:MagicNumber")
     @Test
     void arrayWhenNotNestableTest() {
         int[] a1 = new int[]{1, 2, 3, 4};
@@ -37,7 +36,6 @@ public class Task3Test {
         assertFalse(result);
     }
 
-    @SuppressWarnings("checkstyle:MagicNumber")
     @Test
     void badArraysTest() {
         int[] a1 = new int[]{2, 3};

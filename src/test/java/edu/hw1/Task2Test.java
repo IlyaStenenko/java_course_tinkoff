@@ -1,33 +1,34 @@
 package edu.hw1;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class Task2Test {
-    @SuppressWarnings("checkstyle:MagicNumber")
-    @Test
-    void positiveNumberTest() {
-        int number1 = 4060;
-        int number2 = 544;
 
-        int resultCount1 = Task2.countDigits(number1);
-        int resultCount2 = Task2.countDigits(number2);
+    static int[] answer = {4,3};
+    static int i = 0;
+    @ParameterizedTest
+    @ValueSource(ints = {4060,544})
+    void positiveNumberTest(int number) {
 
-        assertThat(resultCount1).isEqualTo(4);
-        assertThat(resultCount2).isEqualTo(3);
+        int resultCount = Task2.countDigits(number);
+
+        assertThat(resultCount).isEqualTo(answer[i % 2]);
+        i++;
     }
 
-    @SuppressWarnings("checkstyle:MagicNumber")
-    @Test
-    void negativeNumberTest() {
-        int number1 = -4000;
-        int number2 = -504;
 
-        int resultCount1 = Task2.countDigits(number1);
-        int resultCount2 = Task2.countDigits(number2);
+    @ParameterizedTest
+    @ValueSource(ints = {-4000,-504})
+    void negativeNumberTest(int number) {
 
-        assertThat(resultCount1).isEqualTo(4);
-        assertThat(resultCount2).isEqualTo(3);
+        int resultCount = Task2.countDigits(number);
+
+        assertThat(resultCount).isEqualTo(answer[i % 2]);
+        i++;
     }
 
     @Test
