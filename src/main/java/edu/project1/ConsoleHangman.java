@@ -1,4 +1,5 @@
 package edu.project1;
+
 import java.util.Random;
 import static edu.project1.Dictionary.WORDS_FOR_SUCCESSFUL_GUESSING;
 

@@ -1,4 +1,5 @@
 package edu.project1;
+
 import java.util.Scanner;
 import lombok.Getter;
 import org.apache.logging.log4j.LogManager;
