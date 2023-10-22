@@ -1,0 +1,1081 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1697972793936)
++++ b/.idea/misc.xml	(date 1697972793936)
+@@ -0,0 +1,11 @@
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file
+Index: essentials.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/essentials.iml b/essentials.iml
+new file mode 100644
+--- /dev/null	(date 1697972793937)
++++ b/essentials.iml	(date 1697972793937)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module version="4">
++  <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
++    <option name="activeLocationsIds" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d35f74db-45e6-4601-96dd-2de622bf5897\" name=\"Changes\" comment=\"test commit\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/edu/hw1/EvenArrayUtils.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/edu/hw1/Main.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"hw1\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 8\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2WIrIeI3ADoocdNkjRfXr7tYFJu\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/ILYA/IdeaProjects/java_course_tinkoff\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d35f74db-45e6-4601-96dd-2de622bf5897\" name=\"Changes\" comment=\"\" />\r\n      <created>1696430858046</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1696430858046</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test commit\">\r\n      <created>1696431044628</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696431044628</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"hw1\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"test commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"test commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 91af20f19193b165de400aa76606bf136883073e)
++++ b/.idea/workspace.xml	(date 1697972793951)
+@@ -4,15 +4,20 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
++<<<<<<< HEAD
+     <list default="true" id="d35f74db-45e6-4601-96dd-2de622bf5897" name="Changes" comment="test commit">
+       <change beforePath="$PROJECT_DIR$/src/main/java/edu/hw1/EvenArrayUtils.java" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/edu/hw1/Main.java" beforeDir="false" />
+     </list>
++=======
++    <list default="true" id="c51d395a-a028-453d-b5ca-ef475e794393" name="Changes" comment="homework1 finishing" />
++>>>>>>> hw1
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++<<<<<<< HEAD
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+@@ -21,18 +26,57 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="UPDATE_TYPE" value="REBASE" />
++=======
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;IlyaStenenko&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="recentNewPullRequestHead">
++      <RepoCoordinatesHolder>
++        <option name="owner" value="IlyaStenenko" />
++        <option name="repository" value="java_course_tinkoff" />
++      </RepoCoordinatesHolder>
++    </option>
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="a4358175-4729-4637-ac00-20518a62a4f5" />
++        <option name="url" value="https://github.com/IlyaStenenko/java_course_tinkoff.git" />
++      </UrlAndAccount>
++    </option>
++>>>>>>> hw1
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
++<<<<<<< HEAD
+   <component name="ProjectColorInfo"><![CDATA[{
+   "associatedIndex": 8
+ }]]></component>
+   <component name="ProjectId" id="2WIrIeI3ADoocdNkjRfXr7tYFJu" />
++=======
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 0
++}</component>
++  <component name="ProjectId" id="2WoO6WLallHSZ6f8XJzfWeQJvVy" />
++>>>>>>> hw1
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
++<<<<<<< HEAD
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+@@ -58,6 +102,136 @@
+       <updated>1696431044628</updated>
+     </task>
+     <option name="localTasksCounter" value="2" />
++=======
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/ILYA/IdeaProjects/java_course_tinkoff/checkstyle.xml&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;
++  }
++}</component>
++  <component name="RunAnythingCache">
++    <option name="myCommands">
++      <command value="mvn checkstyle:check" />
++    </option>
++  </component>
++  <component name="RunManager" selected="JUnit.Task5Test">
++    <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="essentials" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="edu.hw1.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="edu.hw1" />
++      <option name="MAIN_CLASS_NAME" value="edu.hw1.Task1Test" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Task2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="essentials" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="edu.hw1.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="edu.hw1" />
++      <option name="MAIN_CLASS_NAME" value="edu.hw1.Task2Test" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="essentials" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="edu.hw1.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="edu.hw1" />
++      <option name="MAIN_CLASS_NAME" value="edu.hw1.Task3Test" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Task4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="essentials" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="edu.hw1.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="edu.hw1" />
++      <option name="MAIN_CLASS_NAME" value="edu.hw1.Task4Test" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Task5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="essentials" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="edu.hw1.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="edu.hw1" />
++      <option name="MAIN_CLASS_NAME" value="edu.hw1.Task5Test" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="JUnit.Task5Test" />
++        <item itemvalue="JUnit.Task1Test" />
++        <item itemvalue="JUnit.Task2Test" />
++        <item itemvalue="JUnit.Task3Test" />
++        <item itemvalue="JUnit.Task4Test" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="c51d395a-a028-453d-b5ca-ef475e794393" name="Changes" comment="add commit" />
++      <created>1697395293124</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1697395293124</updated>
++    </task>
++    <task id="LOCAL-00001" summary="homework1 complete">
++      <option name="closed" value="true" />
++      <created>1697401412198</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1697401412198</updated>
++    </task>
++    <task id="LOCAL-00002" summary="homework1 finishing">
++      <option name="closed" value="true" />
++      <created>1697665482926</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1697665482926</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
++>>>>>>> hw1
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -65,6 +239,7 @@
+       <map>
+         <entry key="MAIN">
+           <value>
++<<<<<<< HEAD
+             <State>
+               <option name="FILTERS">
+                 <map>
+@@ -78,13 +253,23 @@
+                 </map>
+               </option>
+             </State>
++=======
++            <State />
++>>>>>>> hw1
+           </value>
+         </entry>
+       </map>
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
++<<<<<<< HEAD
+     <MESSAGE value="test commit" />
+     <option name="LAST_COMMIT_MESSAGE" value="test commit" />
++=======
++    <MESSAGE value="add commit" />
++    <MESSAGE value="homework1 complete" />
++    <MESSAGE value="homework1 finishing" />
++    <option name="LAST_COMMIT_MESSAGE" value="homework1 finishing" />
++>>>>>>> hw1
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1697972793935)
++++ b/.idea/encodings.xml	(date 1697972793935)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1697972793935)
++++ b/.idea/compiler.xml	(date 1697972793935)
+@@ -0,0 +1,18 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="essentials" />
++      </profile>
++    </annotationProcessing>
++  </component>
++  <component name="JavacSettings">
++    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="essentials" options="-parameters -Xlint:all" />
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/checkstyle-idea.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/checkstyle-idea.xml b/.idea/checkstyle-idea.xml
+new file mode 100644
+--- /dev/null	(date 1697972793934)
++++ b/.idea/checkstyle-idea.xml	(date 1697972793934)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CheckStyle-IDEA" serialisationVersion="2">
++    <checkstyleVersion>10.12.3</checkstyleVersion>
++    <scanScope>JavaOnly</scanScope>
++    <copyLibs>true</copyLibs>
++    <option name="thirdPartyClasspath" />
++    <option name="activeLocationIds">
++      <option value="b5f8df6c-32a4-4451-8d3b-ae600fa47518" />
++    </option>
++    <option name="locations">
++      <list>
++        <ConfigurationLocation id="bundled-sun-checks" type="BUNDLED" scope="All" description="Sun Checks">(bundled)</ConfigurationLocation>
++        <ConfigurationLocation id="bundled-google-checks" type="BUNDLED" scope="All" description="Google Checks">(bundled)</ConfigurationLocation>
++        <ConfigurationLocation id="b5f8df6c-32a4-4451-8d3b-ae600fa47518" type="LOCAL_FILE" scope="All" description="checkstyleTinkoff">$PROJECT_DIR$/checkstyle.xml</ConfigurationLocation>
++      </list>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1697972793936)
++++ b/.idea/uiDesigner.xml	(date 1697972793936)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/checkstyleidea-libs/readme.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/checkstyleidea-libs/readme.txt b/.idea/checkstyleidea-libs/readme.txt
+new file mode 100644
+--- /dev/null	(date 1697972793935)
++++ b/.idea/checkstyleidea-libs/readme.txt	(date 1697972793935)
+@@ -0,0 +1,6 @@
++This folder contains libraries copied from the "java_course_tinkoff" project.
++It is managed by the CheckStyle-IDEA IDE plugin.
++Do not modify this folder while the IDE is running.
++When the IDE is stopped, you may delete this folder at any time. It will be recreated as needed.
++In order to prevent the CheckStyle-IDEA IDE plugin from creating this folder,
++uncheck the "Copy libraries from project directory" option in the CheckStyle-IDEA settings dialog.
+Index: target/checkstyle-cachefile
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/checkstyle-cachefile b/target/checkstyle-cachefile
+new file mode 100644
+--- /dev/null	(date 1697972793937)
++++ b/target/checkstyle-cachefile	(date 1697972793937)
+@@ -0,0 +1,2 @@
++#Sun Oct 15 18:38:45 UTC 2023
++configuration*?=C14876E4D4ABC4DD583A510631AB2374B1518D21
+Index: target/checkstyle-result.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/checkstyle-result.xml b/target/checkstyle-result.xml
+new file mode 100644
+--- /dev/null	(date 1697972793938)
++++ b/target/checkstyle-result.xml	(date 1697972793938)
+@@ -0,0 +1,40 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<checkstyle version="9.3">
++<file name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\main\java\edu\hw1\Task_0.java">
++<error line="5" column="1" severity="error" message="&apos;CLASS_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="5" column="20" severity="error" message="Name &apos;Task_0&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
++<error line="7" column="5" severity="error" message="&apos;VARIABLE_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++</file>
++<file name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\main\java\edu\hw1\Task_1.java">
++<error line="5" column="1" severity="error" message="&apos;CLASS_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="5" column="20" severity="error" message="Name &apos;Task_1&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
++</file>
++<file name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\main\java\edu\hw1\Task_2.java">
++<error line="3" column="20" severity="error" message="Name &apos;Task_2&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
++<error line="5" column="5" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++</file>
++<file name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\main\java\edu\hw1\Task_3.java">
++<error line="6" column="1" severity="error" message="&apos;CLASS_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++<error line="6" column="20" severity="error" message="Name &apos;Task_3&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
++</file>
++<file name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\main\java\edu\hw1\Task_4.java">
++<error line="3" column="20" severity="error" message="Name &apos;Task_4&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
++<error line="5" column="5" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++</file>
++<file name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\main\java\edu\hw1\Task_5.java">
++<error line="3" column="20" severity="error" message="Name &apos;Task_5&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
++<error line="5" column="5" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++</file>
++<file name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\main\java\edu\hw1\Task_6.java">
++<error line="5" column="20" severity="error" message="Name &apos;Task_6&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
++<error line="7" column="5" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++</file>
++<file name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\main\java\edu\hw1\Task_7.java">
++<error line="3" column="20" severity="error" message="Name &apos;Task_7&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
++<error line="5" column="5" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++</file>
++<file name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\main\java\edu\hw1\Task_8.java">
++<error line="6" column="20" severity="error" message="Name &apos;Task_8&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
++<error line="7" column="24" severity="error" message="&apos;;&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
++</file>
++</checkstyle>
+Index: target/classes/log4j2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/log4j2.xml b/target/classes/log4j2.xml
+new file mode 100644
+--- /dev/null	(date 1697972793941)
++++ b/target/classes/log4j2.xml	(date 1697972793941)
+@@ -0,0 +1,30 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<Configuration
++    xmlns="http://logging.apache.org/log4j/2.0/config"
++    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++    xsi:schemaLocation="http://logging.apache.org/log4j/2.0/config
++    https://raw.githubusercontent.com/apache/logging-log4j2/master/log4j-core/src/main/resources/Log4j-config.xsd"
++    strict="true"
++>
++    <Appenders>
++        <Console name="STDOUT_PLAIN" target="SYSTEM_OUT">
++            <PatternLayout
++                disableAnsi="false"
++                pattern="%d{HH:mm:ss.SSS} %highlight{%-5p} [%-15.15thread] %-15.15logger{20} -- %highlight{%m}%n"
++            />
++        </Console>
++    </Appenders>
++
++    <Loggers>
++        <Logger name="com.sun" level="WARN"/>
++        <Logger name="jdk.event.security" level="INFO"/>
++        <Logger name="sun.rmi" level="WARN"/>
++        <Logger name="sun.rmi.transport" level="WARN"/>
++
++        <Logger name="edu" level="TRACE"/>
++
++        <Root level="INFO">
++            <AppenderRef ref="STDOUT_PLAIN"/>
++        </Root>
++    </Loggers>
++</Configuration>
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1697972793936)
++++ b/.idea/jarRepositories.xml	(date 1697972793936)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: target/checkstyle-checker.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/checkstyle-checker.xml b/target/checkstyle-checker.xml
+new file mode 100644
+--- /dev/null	(date 1697972793937)
++++ b/target/checkstyle-checker.xml	(date 1697972793937)
+@@ -0,0 +1,412 @@
++<?xml version="1.0"?>
++<!DOCTYPE module PUBLIC
++    "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
++    "https://checkstyle.org/dtds/configuration_1_3.dtd">
++<!--
++    Checkstyle configuration
++-->
++<module name="Checker">
++
++    <!-- https://checkstyle.org/property_types.html -->
++    <property name="charset" value="UTF-8"/>
++    <property name="fileExtensions" value="java, properties, xml"/>
++
++
++    <!-- https://checkstyle.org/config_filefilters.html -->
++    <!--     Excludes all 'module-info.java' files      -->
++    <module name="BeforeExecutionExclusionFileFilter">
++        <property name="fileNamePattern" value="module\-info\.java$"/>
++    </module>
++
++
++    <!-- https://checkstyle.org/config_javadoc.html#JavadocPackage     -->
++    <!-- Checks that a package-info.java file exists for each package. -->
++    <!-- <module name="JavadocPackage"/> -->
++
++
++    <!-- https://checkstyle.org/config_misc.html#NewlineAtEndOfFile -->
++    <!--       Checks whether files end with a new line.            -->
++    <module name="NewlineAtEndOfFile"/>
++
++
++    <!-- https://checkstyle.org/config_misc.html#Translation -->
++    <!--   Checks that property files contain the same keys. -->
++    <module name="Translation"/>
++
++
++    <!-- https://checkstyle.org/config_misc.html#UniqueProperties -->
++    <!--             Check for duplicate properties.              -->
++    <module name="UniqueProperties"/>
++
++
++    <!-- https://checkstyle.org/config_sizes.html -->
++    <!--      Checks for Size Violations.         -->
++    <module name="FileLength"/>
++    <module name="LineLength">
++        <property name="max" value="120"/>
++        <property name="fileExtensions" value="java"/>
++        <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://"/>
++    </module>
++
++
++    <!-- https://checkstyle.org/config_whitespace.html -->
++    <!--            Checks for tabs                    -->
++    <module name="FileTabCharacter"/>
++
++
++    <!-- https://checkstyle.org/config_misc.html -->
++    <!--      Check for trailing spaces.        -->
++    <module name="RegexpSingleline">
++        <property name="format" value="\s+$"/>
++        <property name="minimum" value="0"/>
++        <property name="maximum" value="0"/>
++        <property name="message" value="Line has trailing spaces."/>
++    </module>
++
++
++    <!-- https://checkstyle.org/config_filters.html -->
++    <!--  Suppression with comments/annotation .    -->
++    <module name="SuppressWithPlainTextCommentFilter"/>
++    <module name="SuppressWarningsFilter"/>
++
++
++    <module name="TreeWalker">
++        <!-- https://checkstyle.org/config_javadoc.html -->
++        <!--         Checks for Javadoc comments.       -->
++        <!-- <module name="AtclauseOrder"/> -->
++        <!-- <module name="InvalidJavadocPosition"/> -->
++        <!--<module name="JavadocContentLocationCheck"/>-->
++        <!-- <module name="JavadocMethod"/> -->
++        <module name="JavadocMissingLeadingAsteriskCheck"/>
++        <module name="JavadocMissingWhitespaceAfterAsterisk"/>
++        <!-- <module name="JavadocParagraph"/> -->
++        <module name="JavadocStyle">
++            <property name="checkFirstSentence" value="false"/>
++            <property name="checkEmptyJavadoc" value="true"/>
++            <property name="tokens"
++                      value="ANNOTATION_DEF, ANNOTATION_FIELD_DEF, CLASS_DEF, CTOR_DEF, ENUM_CONSTANT_DEF, ENUM_DEF, INTERFACE_DEF, METHOD_DEF, VARIABLE_DEF"/>
++        </module>
++        <!--<module name="JavadocTagContinuationIndentation"/>-->
++        <!--<module name="JavadocType">-->
++        <!--    <property name="scope" value="public"/>-->
++        <!--</module>-->
++        <!-- <module name="JavadocVariable"/> -->
++        <!-- <module name="MissingJavadocMethod"/> -->
++        <!-- <module name="MissingJavadocPackage"/> -->
++        <!-- <module name="MissingJavadocType"/> -->
++        <module name="NonEmptyAtclauseDescription"/>
++        <module name="SingleLineJavadoc"/>
++        <!-- <module name="SummaryJavadoc"/> -->
++        <!-- <module name="WriteTag"/> -->
++
++
++        <!-- https://checkstyle.org/config_annotation.html -->
++        <!--              Annotations                      -->
++        <!-- <module name="AnnotationLocation">-->
++        <!--  <property name="id" value="AnnotationLocationMostCases"/>-->
++        <!--  <property name="tokens" value="CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF"/>-->
++        <!-- </module>-->
++        <!-- <module name="AnnotationLocation">-->
++        <!--  <property name="id" value="AnnotationLocationVariables"/>-->
++        <!--  <property name="tokens" value="VARIABLE_DEF"/>-->
++        <!--  <property name="allowSamelineMultipleAnnotations" value="true"/>-->
++        <!-- </module>-->
++        <!-- <module name="AnnotationOnSameLine"/> -->
++        <!-- <module name="AnnotationUseStyle"/> -->
++        <!-- <module name="MissingDeprecated"/> -->
++        <module name="MissingOverride"/>
++        <!-- <module name="PackageAnnotation"/> -->
++
++
++        <!-- https://checkstyle.org/config_naming.html -->
++        <!--      Checks for Naming Conventions.       -->
++        <!-- <module name="AbbreviationAsWordInName"/> -->
++        <!-- <module name="AbstractClassName"/> -->
++        <module name="CatchParameterName"/>
++        <module name="ClassTypeParameterName"/>
++        <module name="ConstantName"/>
++        <module name="IllegalIdentifierName"/>
++        <module name="InterfaceTypeParameterName"/>
++        <module name="LambdaParameterName"/>
++        <module name="LocalVariableName"/>
++        <module name="MemberName"/>
++        <module name="MethodName"/>
++        <module name="MethodTypeParameterName"/>
++        <module name="PackageName"/>
++        <module name="ParameterName"/>
++        <module name="PatternVariableName"/>
++        <module name="RecordTypeParameterName"/>
++        <module name="RecordComponentName"/>
++        <module name="StaticVariableName"/>
++        <module name="TypeName"/>
++
++
++        <!-- https://checkstyle.org/config_imports.html -->
++        <!--            Checks for imports              -->
++        <module name="AvoidStarImport"/>
++        <!-- <module name="AvoidStaticImport"/> -->
++        <!-- <module name="CustomImportOrder"/> -->
++        <module name="IllegalImport"/> <!-- defaults to sun.* packages -->
++        <!-- <module name="ImportControl"/> -->
++        <module name="ImportOrder">
++            <property name="option" value="under"/>
++            <property name="sortStaticImportsAlphabetically" value="true"/>
++        </module>
++        <module name="RedundantImport"/>
++        <module name="UnusedImports"/>
++
++
++        <!-- https://checkstyle.org/config_sizes.html -->
++        <!--      Checks for Size Violations.         -->
++        <module name="AnonInnerLength">
++            <property name="max" value="40"/>
++        </module>
++        <!-- <module name="ExecutableStatementCount"/> -->
++        <module name="LambdaBodyLength">
++            <property name="max" value="40"/>
++        </module>
++        <!-- <module name="MethodCount"/> -->
++        <module name="MethodLength"/>
++        <module name="OuterTypeNumber"/>
++        <module name="ParameterNumber"/>
++        <!-- <module name="RecordComponentNumber"/> -->
++
++
++        <!-- https://checkstyle.org/config_whitespace.html -->
++        <!--          Checks for whitespace                -->
++        <!-- <module name="EmptyForInitializerPad"/> -->
++        <module name="EmptyForIteratorPad"/>
++        <module name="EmptyLineSeparator">
++            <property name="allowNoEmptyLineBetweenFields" value="true"/>
++        </module>
++        <module name="GenericWhitespace"/>
++        <module name="MethodParamPad"/>
++        <module name="NoLineWrap"/>
++        <module name="NoWhitespaceAfter"/>
++        <module name="NoWhitespaceBefore"/>
++        <module name="NoWhitespaceBeforeCaseDefaultColon"/>
++        <module name="OperatorWrap"/>
++        <module name="ParenPad"/>
++        <module name="SeparatorWrap">
++            <property name="id" value="SeparatorWrapDot"/>
++            <property name="tokens" value="DOT"/>
++            <property name="option" value="nl"/>
++        </module>
++        <module name="SeparatorWrap">
++            <property name="id" value="SeparatorWrapComma"/>
++            <property name="tokens" value="COMMA"/>
++            <property name="option" value="EOL"/>
++        </module>
++        <module name="SeparatorWrap">
++            <property name="id" value="SeparatorWrapEllipsis"/>
++            <property name="tokens" value="ELLIPSIS"/>
++            <property name="option" value="EOL"/>
++        </module>
++        <module name="SeparatorWrap">
++            <property name="id" value="SeparatorWrapArrayDeclarator"/>
++            <property name="tokens" value="ARRAY_DECLARATOR"/>
++            <property name="option" value="EOL"/>
++        </module>
++        <module name="SeparatorWrap">
++            <property name="id" value="SeparatorWrapMethodRef"/>
++            <property name="tokens" value="METHOD_REF"/>
++            <property name="option" value="nl"/>
++        </module>
++        <!-- <module name="SingleSpaceSeparator"/> -->
++        <module name="TypecastParenPad"/>
++        <module name="WhitespaceAfter"/>
++        <module name="WhitespaceAround">
++            <property name="allowEmptyConstructors" value="true"/>
++            <property name="allowEmptyLambdas" value="true"/>
++            <property name="allowEmptyMethods" value="true"/>
++            <property name="allowEmptyTypes" value="true"/>
++            <property name="allowEmptyLoops" value="true"/>
++            <message key="ws.notFollowed"
++                     value="WhitespaceAround: ''{0}'' is not followed by whitespace. Empty blocks may only be represented as '{}' when it's ctor, method, type, lambda or loop"/>
++            <message key="ws.notPreceded"
++                     value="WhitespaceAround: ''{0}'' is not preceded with whitespace."/>
++        </module>
++
++
++        <!-- https://checkstyle.org/config_modifier.html -->
++        <!--             Modifier Checks                 -->
++        <!-- <module name="ClassMemberImpliedModifier"/> -->
++        <!-- <module name="InterfaceMemberImpliedModifier"/> -->
++        <!--<module name="ModifierOrder"/>-->
++        <module name="RedundantModifier"/>
++
++
++        <!-- https://checkstyle.org/config_blocks.html -->
++        <!-- Checks for blocks. You know, those {}'s   -->
++        <module name="AvoidNestedBlocks">
++            <property name="allowInSwitchCase" value="true"/>
++        </module>
++        <module name="EmptyBlock">
++            <property name="option" value="TEXT"/>
++            <property name="tokens" value="LITERAL_TRY, LITERAL_FINALLY, LITERAL_IF, LITERAL_ELSE, LITERAL_SWITCH"/>
++        </module>
++        <module name="LeftCurly"/>
++        <module name="NeedBraces"/>
++        <module name="RightCurly"/>
++
++
++        <!-- https://checkstyle.org/config_coding.html -->
++        <!--      Checks for common coding problems    -->
++        <!-- <module name="ArrayTrailingComma"/> -->
++        <!-- <module name="AvoidDoubleBraceInitialization"/> -->
++        <!-- <module name="AvoidInlineConditionals"/> -->
++        <module name="AvoidNoArgumentSuperConstructorCall"/>
++        <module name="CovariantEquals"/>
++        <!--<module name="DeclarationOrder"/>-->
++        <module name="DefaultComesLast"/>
++        <module name="EmptyStatement"/>
++        <!-- <module name="EqualsAvoidNull"/> -->
++        <module name="EqualsHashCode"/>
++        <!-- <module name="ExplicitInitialization"/> -->
++        <module name="FallThrough"/>
++        <!-- <module name="FinalLocalVariable"/> -->
++        <module name="HiddenField">
++            <property name="tokens" value="VARIABLE_DEF"/>
++        </module>
++        <!-- <module name="IllegalCatch"/> -->
++        <module name="IllegalInstantiation">
++            <property name="classes" value="java.lang.Boolean"/>
++        </module>
++        <!-- <module name="IllegalThrows"/> -->
++        <!-- <module name="IllegalToken"/> -->
++        <!-- <module name="IllegalTokenText"/> -->
++        <!-- <module name="IllegalType"/> -->
++        <module name="InnerAssignment"/>
++        <module name="MagicNumber">
++            <property name="ignoreHashCodeMethod" value="true"/>
++            <property name="ignoreAnnotation" value="true"/>
++            <message key="magic.number"
++                     value="Most likely the value ''{0}'' is a configuration one. You should move it to configuration file instead of source code."/>
++        </module>
++        <!-- <module name="MissingCtor"/> -->
++        <module name="MissingSwitchDefault"/>
++        <module name="ModifiedControlVariable"/>
++        <module name="MultipleStringLiterals">
++            <!-- Allow zero-length and 1-character strings -->
++            <property name="ignoreStringsRegexp" value='^(("")|(".")|("..")|("..>"))$'/>
++        </module>
++        <module name="MultipleVariableDeclarations"/>
++        <module name="NestedForDepth">
++            <property name="max" value="2"/>
++        </module>
++        <module name="NestedIfDepth">
++            <property name="max" value="2"/>
++        </module>
++        <module name="NestedTryDepth">
++            <property name="max" value="2"/>
++        </module>
++        <!--<module name="NoArrayTrailingComma"/>-->
++        <!--<module name="NoEnumTrailingComma"/>-->
++        <module name="NoClone"/>
++        <module name="NoFinalizer"/>
++        <module name="OneStatementPerLine"/>
++        <!--<module name="OverloadMethodsDeclarationOrder"/>-->
++        <module name="PackageDeclaration"/>
++        <module name="ParameterAssignment"/>
++        <!-- <module name="RequireThis"/> -->
++        <module name="ReturnCount">
++            <property name="max" value="4"/>
++        </module>
++        <module name="SimplifyBooleanExpression"/>
++        <module name="SimplifyBooleanReturn"/>
++        <module name="StringLiteralEquality"/>
++        <module name="SuperClone"/>
++        <module name="SuperFinalize"/>
++        <!-- <module name="UnnecessaryParentheses"/> -->
++        <!-- <module name="UnnecessarySemicolonInEnumeration"/> -->
++        <!-- <module name="UnnecessarySemicolonInTryWithResources"/> -->
++        <!-- <module name="UnnecessarySemicolonAfterOuterTypeDeclaration"/> -->
++        <!-- <module name="UnusedLocalVariable"/> -->
++        <!-- <module name="VariableDeclarationUsageDistance"/> -->
++
++        <!-- https://checkstyle.org/config_design.html -->
++        <!--       Checks for class design             -->
++        <!-- <module name="DesignForExtension"/> -->
++        <module name="FinalClass">
++            <property name="severity" value="warning"/>
++            <message key="final.class"
++                     value="Private ctor in non-final class. Inspect the code and make sure it's intended."/>
++        </module>
++        <module name="HideUtilityClassConstructor"/>
++        <module name="SuppressionXpathSingleFilter">
++            <property name="checks" value="HideUtilityClassConstructor"/>
++            <property name="query" value="//*[MODIFIERS//*[@text = 'UtilityClass' or @text='NoArgsConstructor' or @text = 'Main' or @text = 'Application']]/descendant-or-self::node()"/>
++        </module>
++        <module name="InnerTypeLast"/>
++        <!--<module name="InterfaceIsType"/>-->
++        <module name="MutableException"/>
++        <module name="OneTopLevelClass"/>
++        <!-- <module name="ThrowsCount"/> -->
++        <!-- <module name="VisibilityModifier"/> -->
++
++
++        <!-- Miscellaneous other checks.                   -->
++        <!-- https://checkstyle.org/config_misc.html -->
++        <module name="ArrayTypeStyle"/>
++        <!-- <module name="AvoidEscapedUnicodeCharacters"/> -->
++        <!-- <module name="CommentsIndentation"/> -->
++        <!-- <module name="DescendantToken"/> -->
++        <!-- <module name="FinalParameters"/> -->
++        <module name="NoCodeInFile"/>
++
++        <!-- https://github.com/checkstyle/checkstyle/issues/3122 -->
++        <!-- https://github.com/checkstyle/checkstyle/issues/3342 -->
++        <!-- this module is broken for a long time, I'm not sure we should use it -->
++        <!-- <module name="Indentation"/> -->
++
++        <!-- <module name="OrderedProperties"/> -->
++        <module name="OuterTypeFilename"/>
++        <!-- <module name="TodoComment" /> -->
++        <!-- <module name="TrailingComment"/> -->
++        <module name="UncommentedMain">
++            <property name="excludedClasses" value="Application|Main"/>
++        </module>
++        <module name="UpperEll"/>
++
++
++        <!-- https://checkstyle.org/config_metrics.html -->
++        <!--         Checks for Code Metrics.           -->
++        <!-- <module name="BooleanExpressionComplexity"/> -->
++        <!-- <module name="ClassDataAbstractionCoupling"/> -->
++        <!-- <module name="ClassFanOutComplexity"/> -->
++        <module name="CyclomaticComplexity">
++            <property name="max" value="16"/>
++        </module>
++        <!-- <module name="JavaNCSS"/> -->
++        <!-- <module name="NPathComplexity"/> -->
++
++
++        <!-- https://checkstyle.org/config_regexp.html -->
++        <!--      Checks for forbidden code.           -->
++        <module name="RegexpSinglelineJava">
++            <property name="format" value="\.printStackTrace"/>
++            <property name="ignoreComments" value="true"/>
++            <property name="message" value="Using printStackTrace is a bad practice. Use a logger instead."/>
++        </module>
++        <module name="RegexpSinglelineJava">
++            <property name="format" value="System\.out\.print"/>
++            <property name="ignoreComments" value="true"/>
++            <property name="message" value="Using System.out for logging is a bad practice. Use a logger instead."/>
++        </module>
++        <module name="RegexpSinglelineJava">
++            <property name="format" value="javax\.annotation\.Nonnull|javax\.annotation\.Nullable|javax\.annotation\.ParametersAreNonnullByDefault|javax\.annotation\.ParametersAreNullableByDefault|org\.springframework\.lang\.Nullable|org\.springframework\.lang\.NonNull|org\.springframework\.lang\.NonNullApi|org\.springframework\.lang\.NonNullFields|edu\.umd\.cs\.findbugs\.annotations\.Nullable|edu\.umd\.cs\.findbugs\.annotations\.NonNull"/>
++            <property name="ignoreComments" value="true"/>
++            <property name="message" value="Use org.jetbrains.annotations.* for nullability."/>
++        </module>
++
++
++        <!-- https://checkstyle.org/config_filters.html -->
++        <!-- Comments/annotation suppression.           -->
++        <module name="SuppressionCommentFilter"/>
++        <!-- <module name="SuppressWarnings"/> -->
++        <module name="SuppressWarningsHolder"/>
++        <module name="SuppressWithNearbyCommentFilter"/>
++
++    </module>
++
++</module>
