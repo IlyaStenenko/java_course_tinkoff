@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c142bf2-df72-4bf3-9d9f-09bd4797dcba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw2/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw2/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw2/Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw2/Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw2/Task3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw2/Task4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/hw2/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/hw2/Task1.java" afterDir="false" />
-    </list>
+    <list default="true" id="2c142bf2-df72-4bf3-9d9f-09bd4797dcba" name="Changes" comment="homework 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +20,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "IlyaStenenko"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="IlyaStenenko" />
+        <option name="repository" value="java_course_tinkoff" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a4358175-4729-4637-ac00-20518a62a4f5" />
+        <option name="url" value="https://github.com/IlyaStenenko/java_course_tinkoff.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/ILYA/IdeaProjects/java_course_tinkoff/checkstyle.xml",
+    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
+  }
+}]]></component>
   <component name="RunManager" selected="JUnit.Task4Test">
     <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
@@ -102,6 +117,23 @@
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="homework 2">
+      <option name="closed" value="true" />
+      <created>1697987556485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697987556485</updated>
+    </task>
+    <task id="LOCAL-00002" summary="homework 2">
+      <option name="closed" value="true" />
+      <created>1697987600330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697987600330</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,5 +152,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 2" />
   </component>
 </project>

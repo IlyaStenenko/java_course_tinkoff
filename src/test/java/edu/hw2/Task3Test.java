@@ -1,10 +1,8 @@
 package edu.hw2;
 
 import org.junit.jupiter.api.Test;
-import edu.hw2.Task3.DefaultConnectionManager;
 import edu.hw2.Task3.ConnectionManager;
 import edu.hw2.Task3.Connection;
-import edu.hw2.Task3.FaultyConnectionManager;
 import edu.hw2.Task3.FaultyConnection;
 
 import static org.assertj.core.api.Assertions.assertThat;
