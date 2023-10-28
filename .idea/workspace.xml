@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35f74db-45e6-4601-96dd-2de622bf5897" name="Changes" comment="project 1" />
+    <list default="true" id="2c142bf2-df72-4bf3-9d9f-09bd4797dcba" name="Changes" comment="homework 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,13 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -33,6 +27,12 @@
   }
 }]]></component>
   <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="IlyaStenenko" />
+        <option name="repository" value="java_course_tinkoff" />
+      </RepoCoordinatesHolder>
+    </option>
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="a4358175-4729-4637-ac00-20518a62a4f5" />
@@ -40,97 +40,68 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2WIrIeI3ADoocdNkjRfXr7tYFJu" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/ILYA/IdeaProjects/java_course_tinkoff/checkstyle.xml",
     "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SessionTest">
-    <configuration name="ConsoleHangmanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Task4Test">
+    <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.project1.*" />
+          <option name="PATTERN" value="edu.hw2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.project1" />
-      <option name="MAIN_CLASS_NAME" value="edu.project1.ConsoleHangmanTest" />
+      <option name="PACKAGE_NAME" value="edu.hw2" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task1Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.project1.*" />
+          <option name="PATTERN" value="edu.hw2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.project1" />
-      <option name="MAIN_CLASS_NAME" value="edu.project1.DictionaryTest" />
+      <option name="PACKAGE_NAME" value="edu.hw2" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task2Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HangmanIOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.project1.*" />
+          <option name="PATTERN" value="edu.hw2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.project1" />
-      <option name="MAIN_CLASS_NAME" value="edu.project1.HangmanIOTest" />
+      <option name="PACKAGE_NAME" value="edu.hw2" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task3Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.project1.*" />
+          <option name="PATTERN" value="edu.hw2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.project1" />
-      <option name="MAIN_CLASS_NAME" value="edu.project1.SessionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essentials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.hw1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.hw1" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw1.Task6Test" />
+      <option name="PACKAGE_NAME" value="edu.hw2" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task4Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,68 +109,52 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SessionTest" />
-        <item itemvalue="JUnit.HangmanIOTest" />
-        <item itemvalue="JUnit.DictionaryTest" />
-        <item itemvalue="JUnit.ConsoleHangmanTest" />
-        <item itemvalue="JUnit.Task6Test" />
+        <item itemvalue="JUnit.Task4Test" />
+        <item itemvalue="JUnit.Task1Test" />
+        <item itemvalue="JUnit.Task2Test" />
+        <item itemvalue="JUnit.Task3Test" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="d35f74db-45e6-4601-96dd-2de622bf5897" name="Changes" comment="" />
-      <created>1696430858046</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1696430858046</updated>
-    </task>
-    <task id="LOCAL-00001" summary="test commit">
-      <created>1696431044628</created>
+    <task id="LOCAL-00001" summary="homework 2">
+      <option name="closed" value="true" />
+      <created>1697987556485</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1696431044628</updated>
+      <updated>1697987556485</updated>
     </task>
-    <task id="LOCAL-00002" summary="project 1">
+    <task id="LOCAL-00002" summary="homework 2">
       <option name="closed" value="true" />
-      <created>1697993712953</created>
+      <created>1697987600330</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1697993712953</updated>
+      <updated>1697987600330</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
+    <option name="RECENT_FILTERS">
       <map>
-        <entry key="MAIN">
+        <entry key="Branch">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="hw1" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test commit" />
-    <MESSAGE value="homework 2 checkstyle done" />
-    <MESSAGE value="project 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="project 1" />
+    <MESSAGE value="homework 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 2" />
   </component>
 </project>
