@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c142bf2-df72-4bf3-9d9f-09bd4797dcba" name="Changes" comment="homework 2" />
+    <list default="true" id="2c142bf2-df72-4bf3-9d9f-09bd4797dcba" name="Changes" comment="homework 2">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project2/Impl/GeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project2/Impl/RenderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project2/Impl/SolverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project2/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project2/interfaces/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project2/interfaces/Renderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project2/interfaces/Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project2/models/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project2/models/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project2/models/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_2023_15_11__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_2023_15_11__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,19 +27,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "IlyaStenenko"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IlyaStenenko&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="recentNewPullRequestHead">
       <RepoCoordinatesHolder>
@@ -42,51 +62,67 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/ILYA/IdeaProjects/java_course_tinkoff/checkstyle.xml",
     "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Task4Test">
-    <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SolverTest">
+    <configuration name="GeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.hw2.*" />
+          <option name="PATTERN" value="edu.project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.hw2" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task1Test" />
+      <option name="PACKAGE_NAME" value="edu.project2" />
+      <option name="MAIN_CLASS_NAME" value="edu.project2.GeneratorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LauncherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.hw2.*" />
+          <option name="PATTERN" value="edu.project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.hw2" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task2Test" />
+      <option name="PACKAGE_NAME" value="edu.project2" />
+      <option name="MAIN_CLASS_NAME" value="edu.project2.LauncherTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RenderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.hw2.*" />
+          <option name="PATTERN" value="edu.project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.hw2" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task3Test" />
+      <option name="PACKAGE_NAME" value="edu.project2" />
+      <option name="MAIN_CLASS_NAME" value="edu.project2.RenderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.project2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.project2" />
+      <option name="MAIN_CLASS_NAME" value="edu.project2.SolverTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolverTest" />
+        <item itemvalue="JUnit.RenderTest" />
+        <item itemvalue="JUnit.LauncherTest" />
+        <item itemvalue="JUnit.GeneratorTest" />
         <item itemvalue="JUnit.Task4Test" />
-        <item itemvalue="JUnit.Task1Test" />
-        <item itemvalue="JUnit.Task2Test" />
-        <item itemvalue="JUnit.Task3Test" />
       </list>
     </recent_temporary>
   </component>
