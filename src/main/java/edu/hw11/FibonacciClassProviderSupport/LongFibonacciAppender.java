@@ -6,7 +6,7 @@ import net.bytebuddy.implementation.bytecode.ByteCodeAppender;
 import net.bytebuddy.implementation.bytecode.StackManipulation;
 import net.bytebuddy.jar.asm.MethodVisitor;
 
-class LongFibonacciAppender implements ByteCodeAppender {
+final class LongFibonacciAppender implements ByteCodeAppender {
 
     private LongFibonacciAppender() {
 
@@ -36,7 +36,7 @@ class LongFibonacciAppender implements ByteCodeAppender {
         return SingletonHolder.INSTANCE;
     }
 
-    private static class SingletonHolder {
+    final private static class SingletonHolder {
         public static final ByteCodeAppender INSTANCE = new LongFibonacciAppender();
     }
 }

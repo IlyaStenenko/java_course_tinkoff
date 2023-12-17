@@ -87,7 +87,7 @@ class LongFibonacci implements StackManipulation {
         return SingletonHolder.INSTANCE;
     }
 
-    private static class SingletonHolder {
+    private final static class SingletonHolder {
         public static final StackManipulation INSTANCE = new LongFibonacci();
     }
 }

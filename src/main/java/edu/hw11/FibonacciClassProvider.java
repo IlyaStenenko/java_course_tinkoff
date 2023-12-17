@@ -5,7 +5,7 @@ import java.lang.reflect.Modifier;
 import net.bytebuddy.ByteBuddy;
 import net.bytebuddy.dynamic.loading.ClassLoadingStrategy;
 
-public class FibonacciClassProvider {
+public final class FibonacciClassProvider {
 
     public static final String CLASS_NAME = "edu.hw11.FibonacciCalculator";
     public static final String METHOD_NAME = "getFibonacciNumber";

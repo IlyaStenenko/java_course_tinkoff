@@ -4,7 +4,7 @@ import net.bytebuddy.dynamic.scaffold.InstrumentedType;
 import net.bytebuddy.implementation.Implementation;
 import net.bytebuddy.implementation.bytecode.ByteCodeAppender;
 
-public class FibonacciImplementation implements Implementation {
+public final class FibonacciImplementation implements Implementation {
 
     private FibonacciImplementation() {
 
@@ -25,7 +25,7 @@ public class FibonacciImplementation implements Implementation {
         return SingletonHolder.INSTANCE;
     }
 
-    private static class SingletonHolder {
+    private final static class SingletonHolder {
         public static final Implementation INSTANCE = new FibonacciImplementation();
     }
 }
