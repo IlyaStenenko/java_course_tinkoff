@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c142bf2-df72-4bf3-9d9f-09bd4797dcba" name="Changes" comment="hw 3 checkstyle done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw7/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw7/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw7/Task31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw7/Task32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw7/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw7/Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw7/Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw7/Task31Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw7/Task32Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw7/Task4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project5/ReflectionBenchmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/project5/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/hw1/Task1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/hw1/Task1Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
