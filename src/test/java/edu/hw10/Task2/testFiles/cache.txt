@@ -1,0 +1,2 @@
+edu.hw10.Task2.FibonacciCalculator::calculate:[12] -> [377]
+edu.hw10.Task2.FibonacciCalculator::calculate:[13] -> [610]
