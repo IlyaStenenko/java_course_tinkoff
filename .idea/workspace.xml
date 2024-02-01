@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c142bf2-df72-4bf3-9d9f-09bd4797dcba" name="Changes" comment="hw10">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw11/FibonacciClassProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw11/FibonacciClassProviderSupport/FibonacciImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw11/FibonacciClassProviderSupport/LongFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/hw11/FibonacciClassProviderSupport/LongFibonacciAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw11/Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw11/Task2/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw11/Task2/CalculatorInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw11/Task2/Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/hw11/Task3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$ConnectionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$ConnectionException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$DefaultConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$DefaultConnectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$FaultyConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$FaultyConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$FaultyConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$FaultyConnectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$PopularCommandExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$PopularCommandExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$StableConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/hw2/Task3$StableConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/hw2/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/hw2/Task3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/hw2/Task3Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/hw2/Task3Test.class" afterDir="false" />
-    </list>
+    <list default="true" id="2c142bf2-df72-4bf3-9d9f-09bd4797dcba" name="Changes" comment="homework 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,30 +13,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="JUnit5 Test Class" />
-        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/hw9" />
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;IlyaStenenko&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "IlyaStenenko"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="recentNewPullRequestHead">
       <RepoCoordinatesHolder>
@@ -71,59 +40,23 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2XORYFItrkAjioUe6x0CaFOzQJC" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ILYA/IdeaProjects/java_course_tinkoff/checkstyle.xml&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/ILYA/IdeaProjects/java_course_tinkoff/checkstyle.xml",
+    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\test\java\edu\project4\imageRenderTestFile" />
-      <recent name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\test\java\edu\hw9\Task2\testFiles" />
-      <recent name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\test\java\edu\hw9\Task2\testFiles\d1" />
-      <recent name="C:\Users\ILYA\IdeaProjects\java_course_tinkoff\src\test\java\edu\hw9\Task2\testFiles\d1\d12" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="edu.hw9.Task1" />
-      <recent name="edu.hw4" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="edu.hw9.Task2" />
-      <recent name="edu.hw3" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.Task1Test">
+}]]></component>
+  <component name="RunManager" selected="JUnit.Task4Test">
     <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.hw11.*" />
+          <option name="PATTERN" value="edu.hw2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.hw11" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw11.Task1Test" />
+      <option name="PACKAGE_NAME" value="edu.hw2" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task1Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,42 +66,12 @@
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.hw11.Task2.*" />
+          <option name="PATTERN" value="edu.hw2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.hw11.Task2" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw11.Task2.Task2Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task31Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essentials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.hw7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.hw7" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw7.Task31Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task32Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essentials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.hw7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.hw7" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw7.Task32Test" />
+      <option name="PACKAGE_NAME" value="edu.hw2" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task2Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,12 +81,27 @@
       <module name="essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.hw11.*" />
+          <option name="PATTERN" value="edu.hw2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.hw11" />
-      <option name="MAIN_CLASS_NAME" value="edu.hw11.Task3Test" />
+      <option name="PACKAGE_NAME" value="edu.hw2" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task3Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.hw2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.hw2" />
+      <option name="MAIN_CLASS_NAME" value="edu.hw2.Task4Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,15 +109,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task4Test" />
         <item itemvalue="JUnit.Task1Test" />
         <item itemvalue="JUnit.Task2Test" />
         <item itemvalue="JUnit.Task3Test" />
-        <item itemvalue="JUnit.Task32Test" />
-        <item itemvalue="JUnit.Task31Test" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="homework 2">
       <option name="closed" value="true" />
@@ -217,70 +133,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697987600330</updated>
     </task>
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="2c142bf2-df72-4bf3-9d9f-09bd4797dcba" name="Changes" comment="" />
-      <created>1698498185669</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1698498185669</updated>
-    </task>
-    <task id="LOCAL-00003" summary="hw 3">
-      <option name="closed" value="true" />
-      <created>1698504992739</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1698504992739</updated>
-    </task>
-    <task id="LOCAL-00004" summary="hw 3 checkstyle done">
-      <option name="closed" value="true" />
-      <created>1698505094827</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1698505094827</updated>
-    </task>
-    <task id="LOCAL-00005" summary="hw 6 not finish">
-      <option name="closed" value="true" />
-      <created>1701025186351</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1701025186351</updated>
-    </task>
-    <task id="LOCAL-00006" summary="hw 8 finish">
-      <option name="closed" value="true" />
-      <created>1701636824015</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1701636824015</updated>
-    </task>
-    <task id="LOCAL-00007" summary="hw 9 finish">
-      <option name="closed" value="true" />
-      <created>1702238867297</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1702238867297</updated>
-    </task>
-    <task id="LOCAL-00008" summary="project4">
-      <option name="closed" value="true" />
-      <created>1702241664649</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1702241664649</updated>
-    </task>
-    <task id="LOCAL-00009" summary="hw10">
-      <option name="closed" value="true" />
-      <created>1702837267549</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1702837267549</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,38 +152,9 @@
         </entry>
       </map>
     </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="hw9" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework 2" />
-    <MESSAGE value="test commit" />
-    <MESSAGE value="hw 3" />
-    <MESSAGE value="hw 3 checkstyle done" />
-    <MESSAGE value="hw 6 not finish" />
-    <MESSAGE value="hw 8 finish" />
-    <MESSAGE value="hw 9 finish" />
-    <MESSAGE value="project4" />
-    <MESSAGE value="hw10" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw10" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 2" />
   </component>
 </project>
